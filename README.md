@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://cla91.github.io/bento-grid-main/)
-- Live Site URL: [Add live site URL here](https://www.frontendmentor.io/solutions/first-time-using-tailwindcss-xkj8xu-yKm)
+- Live Site URL: [Add live site URL here](https://cla91.github.io/bento-grid-main/)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/first-time-using-tailwindcss-xkj8xu-yKm)
 
 ## My process
 
