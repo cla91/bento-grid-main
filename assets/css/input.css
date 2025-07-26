@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-purple-100: hsl(254, 88%, 90%);
+    --color-purple-500: hsl(256, 67%, 59%);
+    --color-yellow-100: hsl(31, 66%, 93%);
+    --color-yellow-500: hsl(39, 100%, 71%);
+    --font-display: "DM Sans", sans-serif;
+    --radius-custom: 0.625rem;
+    /*10px*/
+
+
+}
+
+
+@layer base {
+    body {
+        @apply font-display text-lg/5 text-black gap-4 bg-[#F6F5F6];
+    }
+
+    h2 {
+        @apply font-medium;
+    }
+
+    section {
+        @apply rounded-custom;
+    }
+}
+
+@layer components {
+    .heading-sm {
+        @apply text-[1.625rem]/6;
+        /*26px, 24px*/
+        @apply md:text-[1.75rem]/6.5;
+        /*28px, 26px*/
+        @apply lg:text-[2rem]/7;
+        /*32px, 28px*/
+    }
+
+    .heading-md {
+        @apply text-[2rem]/7;
+        /*32px, 28px*/
+        @apply md:text-4xl/7.5;
+        /*36px, 30px*/
+        @apply lg:text-[2.5rem]/9;
+        /*40px, 36px*/
+    }
+
+    .heading-lg {
+        @apply text-[2.875rem]/10.5;
+        /* 46px, 42px */
+        @apply md:text-[3.375rem]/12;
+        /* 54px, 48px */
+        @apply lg:text-[3.875rem]/14.5;
+        /* 62px, 58px*/
+    }
+}
